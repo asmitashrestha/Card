@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: rgb(187, 201, 201);
+}
+
+.container {
+  width: 400px;
+  height: 550px;
+  border: 1px solid rgb(96, 146, 146);
+  border-radius: 15px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  left: 350px;
+  top: 30px;
+  bottom: 20px;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        left: 0px;
+    }
+    
+}
+
+.picture {
+  padding-top: 9px;
+}
+.picture img {
+  border-radius: 15px;
+}
+
+.box {
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  margin-left: 15px;
+}
+.buton {
+  text-align: center;
+  color: rgb(95, 84, 84);
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: aliceblue;
+  border: 1px solid rgb(70, 67, 67);
+  margin: 3px 5px;
+  padding: 10px 20px;
+}
+.buton:hover {
+  background-color: aquamarine;
+}
+
+.head h1 {
+  text-align: left;
+  margin-left: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Hoefler Text;
+}
+
+.para {
+  text-align: left;
+  margin-left: 11px;
+}
+.para p {
+  font-size: 18px;
+  font-family: serif;
+  color: rgb(92, 76, 76);
+}
+
+.read {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.read button {
+  background-color: rgb(131, 211, 211);
+  border: 1px solid rgb(131, 211, 211);
+  color: blue;
+  border-radius: 20px;
+  font-size: 14px;
+  border-width: 16px;
+}
+.read button:hover {
+  background-color: rgb(160, 158, 157);
+}
+
